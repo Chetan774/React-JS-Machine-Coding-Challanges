@@ -17,7 +17,7 @@ export const InfiniteScroll = ()  =>{
   }, [count])
   
   for(let i = 0; i <= count; i++){
-     element.push(<div style={{flexDirection:"row"}}>{i}</div>);
+     element.push(<div>{i}</div>);
   }
   
   return (
