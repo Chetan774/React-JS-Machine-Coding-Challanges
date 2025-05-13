@@ -1,0 +1,18 @@
+.button{
+    width: 10%;
+    height: 40px;
+    margin: 2%;
+    background-color: black;
+    color: white;
+}
+.conatiner{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+}
+.span{
+    font-size: 20px;
+    margin: 3px;
+}

@@ -1,0 +1,26 @@
+.productCard{
+    border: 1px solid black;
+    margin: 2%;
+    width: 30vh;
+    padding: 2px;
+}
+.header{
+    background-color: turquoise;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+.body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.item{
+    /* margin: 2px; */
+}

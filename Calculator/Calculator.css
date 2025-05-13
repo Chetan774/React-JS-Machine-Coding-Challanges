@@ -1,0 +1,51 @@
+.parentDiv{
+    border: 1px solid black;
+    width: 30%;
+    height: fit-content;
+}
+.header{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.operations{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  text-decoration:solid;
+}
+.sign{
+    margin: 10px;
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.result{
+   width: 100%;
+   height: 30%;
+   background-color: antiquewhite;
+   display: flex;
+   text-shadow: 5px;
+}
+.allDigits{
+    display: flex;
+    flex-direction:row;
+    text-overflow: clip;
+    justify-content: space-between;
+    width: 40%;
+    flex-wrap: wrap;
+}
+.digit{
+    margin: 5px;
+    background-color: black;
+    color: white;
+    padding: 8%;
+}
